@@ -31,6 +31,17 @@
 #include <regex>
 #include <string>
 #include <vector>
+#include <iostream>
+
+namespace
+{
+    // static storage, init and access
+    std::vector<std::unique_ptr<CPPModule>>& cppModules()
+    {
+        static std::vector<std::unique_ptr<CPPModule>> cppModules{};
+        return cppModules;
+    }
+}
 
 namespace
 {
