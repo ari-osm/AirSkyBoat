@@ -162,6 +162,8 @@ add_executable(xi_map
     ${SOURCES}
     ${resource})
 
+target_include_directories(topaz_game PUBLIC ${module_include_dirs})
+
 if(WIN32)
     set_target_properties(xi_map PROPERTIES OUTPUT_NAME xi_map)
 endif()
