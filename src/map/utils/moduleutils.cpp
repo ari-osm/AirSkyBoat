@@ -36,9 +36,9 @@
 namespace
 {
     // static storage, init and access
-    std::vector<std::unique_ptr<CPPModule>>& cppModules()
+    std::vector<CPPModule*>& cppModules()
     {
-        static std::vector<std::unique_ptr<CPPModule>> cppModules{};
+        static std::vector<CPPModule*> cppModules{};
         return cppModules;
     }
 }
