@@ -26,7 +26,8 @@ zones[xi.zone.THE_ASHU_TALIF] =
         TIME_REMAINING_MINUTES     = 7413, -- ime remaining: <number> [minute/minutes] (Earth time).
         TIME_REMAINING_SECONDS     = 7414, -- ime remaining: <number> [second/seconds] (Earth time).
         FADES_INTO_NOTHINGNESS     = 7415, -- The <item> fades into nothingness...
-        PARTY_FALLEN               = 7416, -- ll party members have fallen in battle. Mission failure in <number> [minute/minutes].
+        PARTY_FALLEN               = 7416, -- All party members have fallen in battle. Mission failure in <number> [minute/minutes].
+        PLAYER_OBTAINS_ITEM        = 7427, -- <name> obtains <item>!
         GOWAM_DEATH                = 7563, -- Ugh...
         YAZQUHL_DEATH              = 7566, -- Defeated...by a corsair...?
         TAKE_THIS                  = 7567, -- Take this!
@@ -44,6 +45,8 @@ zones[xi.zone.THE_ASHU_TALIF] =
         FOR_THE_BLACK_COFFIN       = 7580, -- For the Black Coffin!
         FOR_EPHRAMAD               = 7581, -- For Ephramad!
         TROUBLESOME_SQUABS         = 7582, -- Troublesome squabs...
+        OBJECTIVE_COMPLETE         = 7584, -- Objective Complete. You may return on the lifeboat.
+        BAG_FEELS_HEAVIER          = 7586, -- Your bag feels heavier...
     },
 
     mob =
@@ -76,10 +79,51 @@ zones[xi.zone.THE_ASHU_TALIF] =
             GOWAM              = 17022977,
             YAZQUHL            = 17022978,
         },
+
+        -- Scouting the Ashu Talif
+        [55] =
+        {
+            CREW_MNK =
+            {
+                17022990,
+                17022993,
+                17022996,
+                17022999,
+                17023002,
+            },
+            CREW_RDM =
+            {
+                17022991,
+                17022994,
+                17022997,
+                17023000,
+                17023003,
+            },
+            CREW_RNG =
+            {
+                17022992,
+                17022995,
+                17022998,
+                17023001,
+                17023004,
+            },
+            IMP =
+            {
+                17023005,
+                17023006,
+                17023007,
+                17023008,
+            },
+            SWIFTWINGED_GEKKO = 17023009,
+        },
     },
 
     npc =
     {
+        LIFEBOAT              = 17023060,
+        GATE_LIFEBOAT         = 17023059,
+        ANCIENT_LOCKBOX       = 17023034,
+        ANCIENT_LOCKBOX_EXTRA = 17023010,
     },
 }
 

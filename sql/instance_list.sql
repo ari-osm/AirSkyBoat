@@ -78,7 +78,7 @@ INSERT INTO `instance_list` VALUES (5602,'requiem',56,79,30,-470.000,-9.964,-325
 -- THE_ASHU_TALIF (zoneID: 60, starting id: 6000)
 INSERT INTO `instance_list` VALUES (6000,'the_black_coffin',60,54,30,0,-22,24,64,-1,-1,-1,-1);
 INSERT INTO `instance_list` VALUES (6001,'against_all_odds',60,54,30,-9.000,-22.000,17.000,252,-1,-1,-1,-1);
--- INSERT INTO `instance_list` VALUES (6002,'scouting_the_ashu_talif',60,54,30,0.000,0.000,0.000,0,-1,-1,-1,-1);
+INSERT INTO `instance_list` VALUES (6002,'scouting_the_ashu_talif',60,54,30,11.500,-22.000,5.000,171,-1,-1,-1,-1);
 -- INSERT INTO `instance_list` VALUES (6003,'royal_painter_escort',60,54,30,0.000,0.000,0.000,0,-1,-1,-1,-1);
 -- INSERT INTO `instance_list` VALUES (6004,'targeting_the_captain',60,54,30,0.000,0.000,0.000,0,-1,-1,-1,-1);
 

@@ -84,12 +84,12 @@ xi.instance.lookup =
 
     [xi.zone.THE_ASHU_TALIF] =
     {
-        { 6000, { 221, 53, -6, 0, 99, 6, 0 }, { 221, 4 }, { 222, 6 } }, -- The Black Coffin (TOAU 15)
-        { 6001, { 221, 54, -9, 0, 99, 6, 0 }, { 221, 4 }, { 222, 6 } }, -- Against All Odds
+        { 6000, { 221, 53,  -6, 0, 99, 6, 0 }, { 221, 4 }, { 222, 6 } }, -- The Black Coffin (TOAU 15)
+        { 6001, { 221, 54,  -9, 0, 99, 6, 0 }, { 221, 4 }, { 222, 6 } }, -- Against All Odds
         -- Testing the Waters (TOAU 34)
         -- Legacy of the Lost (TOAU 35)
         -- Assault: Royal Painter Escort
-        -- Assault: Scouting the Ashu Talif
+        { 6002, { 221, 55, -17, 0, 99, 6, 0 }, { 221, 4 }, { 222, 6 } }, -- Assault: Scouting the Ashu Talif
         -- Assault: Targeting the Captain
     },
 

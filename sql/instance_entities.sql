@@ -219,6 +219,34 @@ INSERT INTO `instance_entities` VALUES (6000,17022979);
 INSERT INTO `instance_entities` VALUES (6001,17022977);
 INSERT INTO `instance_entities` VALUES (6001,17022978);
 
+-- Scouting the Ashu Talif
+-- mobs
+INSERT INTO `instance_entities` VALUES(6002,17022990); -- Ashu Talif Crew (MNK)
+INSERT INTO `instance_entities` VALUES(6002,17022991); -- Ashu Talif Crew (RDM)
+INSERT INTO `instance_entities` VALUES(6002,17022992); -- Ashu Talif Crew (RNG)
+INSERT INTO `instance_entities` VALUES(6002,17022993); -- Ashu Talif Crew (MNK)
+INSERT INTO `instance_entities` VALUES(6002,17022994); -- Ashu Talif Crew (RDM)
+INSERT INTO `instance_entities` VALUES(6002,17022995); -- Ashu Talif Crew (RNG)
+INSERT INTO `instance_entities` VALUES(6002,17022996); -- Ashu Talif Crew (MNK)
+INSERT INTO `instance_entities` VALUES(6002,17022997); -- Ashu Talif Crew (RDM)
+INSERT INTO `instance_entities` VALUES(6002,17022998); -- Ashu Talif Crew (RNG)
+INSERT INTO `instance_entities` VALUES(6002,17022999); -- Ashu Talif Crew (MNK)
+INSERT INTO `instance_entities` VALUES(6002,17023000); -- Ashu Talif Crew (RDM)
+INSERT INTO `instance_entities` VALUES(6002,17023001); -- Ashu Talif Crew (RNG)
+INSERT INTO `instance_entities` VALUES(6002,17023002); -- Ashu Talif Crew (MNK)
+INSERT INTO `instance_entities` VALUES(6002,17023003); -- Ashu Talif Crew (RDM)
+INSERT INTO `instance_entities` VALUES(6002,17023004); -- Ashu Talif Crew (RNG)
+INSERT INTO `instance_entities` VALUES(6002,17023005); -- Watch Imp
+INSERT INTO `instance_entities` VALUES(6002,17023006); -- Watch Imp
+INSERT INTO `instance_entities` VALUES(6002,17023007); -- Watch Imp
+INSERT INTO `instance_entities` VALUES(6002,17023008); -- Watch Imp
+INSERT INTO `instance_entities` VALUES(6002,17023009); -- Swiftwinged Gekko
+-- npcs
+INSERT INTO `instance_entities` VALUES(6002,17023034); -- Ancient Lockbox (Normal)
+INSERT INTO `instance_entities` VALUES(6002,17023010); -- Ancient Lockbox (??? Item)
+INSERT INTO `instance_entities` VALUES(6002,17023059); -- Gate: Lifeboat
+INSERT INTO `instance_entities` VALUES(6002,17023060);
+
 -- Excavation Duty
 -- mobs
 INSERT INTO `instance_entities` VALUES (6300,17035265);

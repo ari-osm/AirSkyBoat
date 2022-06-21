@@ -908,6 +908,7 @@ namespace zoneutils
             case ZONE_HAZHALM_TESTING_GROUNDS:
             case ZONE_TALACCA_COVE:
             case ZONE_PERIQIA:
+            case ZONE_THE_ASHU_TALIF:
                 return REGION_TYPE::ARRAPAGO;
             case ZONE_NYZUL_ISLE:
             case ZONE_ARRAPAGO_REMNANTS:

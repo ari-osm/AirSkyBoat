@@ -13,6 +13,8 @@ xi.appraisalUtil = xi.appraisalUtil or {}
 
 xi.appraisalUtil.Origin =
 {
+    SCOUTING_THE_ASHU_TALIF     = 55,
+
     NYZUL_BASIC                 = 100,
     NYZUL_BAT_EYE               = 101,
     NYZUL_SHADOW_EYE            = 102,
@@ -103,7 +105,6 @@ xi.appraisalUtil.Origin =
 
     NYZUL_JADED_JODY            = 188,
     NYZUL_MAIGHDEAN_UAINE       = 189,
-
 }
 
 xi.appraisalUtil.unappraisedItems =
@@ -333,6 +334,15 @@ xi.appraisalUtil.appraisalItems =
                 {90, 16465}, -- Bonze Knife
                 {10, 17981}, -- Bano Del Sol
             },
+        },
+        [xi.appraisalUtil.Origin.SCOUTING_THE_ASHU_TALIF] =
+        {
+            items =
+            {
+                {20, xi.items.MATRONS_KNIFE},
+                {50, xi.items.SPARK_DAGGER},
+                {30, xi.items.HUSHED_DAGGER},
+            }
         },
     },
     [xi.items.UNAPPRAISED_POLEARM] =
@@ -1371,16 +1381,28 @@ xi.appraisalUtil.appraisalItems =
                 {10, 15613}, -- Jet Seraweels
             },
         },
+        [xi.appraisalUtil.Origin.SCOUTING_THE_ASHU_TALIF] =
+        {
+            items =
+            {
+                {25, xi.items.TURBO_CHARGER},
+                {25, xi.items.CONDENSER},
+                {25, xi.items.TRANQUILIZER},
+                {25, xi.items.OPTIC_FIBER},
+            }
+        },
     },
 }
 
 xi.appraisalUtil.appraiseItem = function(player, npc, trade, gil, appraisalCsid)
+    player:addItem({id = xi.items.UNAPPRAISED_BOX, appraisal = xi.appraisalUtil.Origin.SCOUTING_THE_ASHU_TALIF})
     if player:getGil() >= gil then
         for _, tradedItem in pairs(xi.appraisalUtil.unappraisedItems) do
             if npcUtil.tradeHasExactly(trade, tradedItem) then
                 local tradeID = trade:getItemId()
                 local info = xi.appraisalUtil.appraisalItems[tradeID]
                 local appraisalID = trade:getItem():getAppraisalID()
+                print(trade:getItem():getAppraisalID())
                 local appraisedItem  = xi.appraisalUtil.itemPick(player, info, appraisalID)
 
                 if appraisedItem ~= 0 then

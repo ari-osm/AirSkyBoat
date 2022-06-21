@@ -4187,6 +4187,16 @@ INSERT INTO `mob_spell_lists` VALUES ('Shikaree_Z',466,14,1,255); -- Poisona
 INSERT INTO `mob_spell_lists` VALUES ('Shikaree_Z',466,15,1,255); -- Paralyna
 INSERT INTO `mob_spell_lists` VALUES ('Shikaree_Z',466,55,1,255); -- Aquaveil
 
+INSERT INTO `mob_spell_lists` VALUES('AncientTier1',469,204,60,255);
+INSERT INTO `mob_spell_lists` VALUES('AncientTier1',469,206,50,255);
+INSERT INTO `mob_spell_lists` VALUES('AncientTier1',469,208,52,255);
+INSERT INTO `mob_spell_lists` VALUES('AncientTier1',469,210,54,255);
+INSERT INTO `mob_spell_lists` VALUES('AncientTier1',469,212,56,255);
+INSERT INTO `mob_spell_lists` VALUES('AncientTier1',469,214,58,255);
+INSERT INTO `mob_spell_lists` VALUES('Swiftwinged_Gekko',470,273,1,255); -- Sleepga
+INSERT INTO `mob_spell_lists` VALUES('Swiftwinged_Gekko',470,356,1,255); -- Paralyga
+INSERT INTO `mob_spell_lists` VALUES('Swiftwinged_Gekko',470,361,1,255); -- Bindga
+INSERT INTO `mob_spell_lists` VALUES('Swiftwinged_Gekko',470,366,1,255); -- Graviga
 
 
 

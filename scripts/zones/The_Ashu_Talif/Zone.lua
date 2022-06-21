@@ -20,7 +20,7 @@ zone_object.onInstanceZoneIn = function(player, instance)
         player:setPos(entrypos.x, entrypos.y, entrypos.z, entrypos.rot)
     end
 
-    player:addTempItem(5349)
+    player:addTempItem(xi.items.CAGE_OF_CUTTER_FIREFLIES)
 
     return cs
 end
