@@ -1316,10 +1316,30 @@ bool CBattleEntity::ValidTarget(CBattleEntity* PInitiator, uint16 targetFlags)
             return false;
         }
     }
+    else if (targetFlags & TARGET_SELF)
+    {
+        if (this == PInitiator)
+        {
+            return true;
+        }
+        else if (PInitiator->objtype == TYPE_PET && static_cast<CPetEntity*>(PInitiator)->getPetType() == PET_TYPE::AUTOMATON && this == PInitiator->PMaster)
+        {
+            return true;
+        }
 
-    return (targetFlags & TARGET_SELF) &&
-           (this == PInitiator ||
-            (PInitiator->objtype == TYPE_PET && static_cast<CPetEntity*>(PInitiator)->getPetType() == PET_TYPE::AUTOMATON && this == PInitiator->PMaster));
+        return false;
+    }
+    else if (targetFlags & TARGET_PLAYER_PARTY)
+    {
+        if (!isDead())
+        {
+            return allegiance == PInitiator->allegiance;
+        }
+
+        return false;
+    }
+
+    return false;
 }
 
 bool CBattleEntity::CanUseSpell(CSpell* PSpell)

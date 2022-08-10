@@ -3821,7 +3821,18 @@ INSERT INTO `mob_skill_lists` VALUES ('Puk_M',1169,1723);
 INSERT INTO `mob_skill_lists` VALUES('Supplespine_Mujwuj', 1176, 1064);
 INSERT INTO `mob_skill_lists` VALUES('Supplespine_Mujwuj', 1176, 609);
 
--- Next available ID: 1176
+INSERT INTO `mob_skill_lists` VALUES('Moblin_Fantocciniman', 1177, 1414);
+INSERT INTO `mob_skill_lists` VALUES('Moblin_Fantocciniman', 1177, 1415);
+INSERT INTO `mob_skill_lists` VALUES('Moblin_Fantocciniman', 1177, 1418);
+INSERT INTO `mob_skill_lists` VALUES('Moblin_Fantocciniman', 1177, 1419);
+INSERT INTO `mob_skill_lists` VALUES('Moblin_Fantocciniman', 1177, 1420);
+INSERT INTO `mob_skill_lists` VALUES('Moblin_Fantocciniman', 1177, 1421);
+INSERT INTO `mob_skill_lists` VALUES('Moblin_Fantocciniman', 1177, 1422);
+INSERT INTO `mob_skill_lists` VALUES('Moblin_Fantocciniman', 1177, 1424);
+INSERT INTO `mob_skill_lists` VALUES('Moblin_Fantocciniman', 1177, 1427);
+INSERT INTO `mob_skill_lists` VALUES('Moblin_Fantocciniman', 1177, 1457);
+
+-- Next available ID: 1178
 
 -- ------------------------------------------------------------
 -- Start of Ambuscade section

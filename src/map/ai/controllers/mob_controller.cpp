@@ -335,6 +335,10 @@ bool CMobController::MobSkill(int wsList)
         {
             PActionTarget = PMob;
         }
+        else if (PMobSkill->getValidTargets() == TARGET_PLAYER_PARTY) // party
+        {
+            PActionTarget = PTarget; //Mob's dont target other mobs unless scripted.  Use OnMobSkillTarget below to set target.
+        }
         else
         {
             continue;
